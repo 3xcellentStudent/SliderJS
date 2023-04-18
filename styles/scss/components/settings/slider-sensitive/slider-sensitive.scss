@@ -1,0 +1,22 @@
+$index: calc(1vw + 1vh);
+
+.slider-sensitive {
+   button {
+      width: calc($index * 2);
+      // &:nth-child(3){margin: 0 $index;}
+   }
+   span {
+      &:nth-child(1){
+         margin: auto calc($index / 2) auto 0;
+      }
+      font-size: $index;
+      // margin: auto calc($index / 1.5);
+   }
+
+   .span-value {
+      width: calc($index * 2);
+      font-size: calc($index * 1.2);
+      font-weight: 900;
+      text-decoration: underline;
+   }
+}

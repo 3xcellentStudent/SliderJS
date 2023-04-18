@@ -1,0 +1,56 @@
+@import './components/index-comp.scss';
+
+@font-face {
+   font-family: Roboto;
+   src: url(../fonts/Roboto-Light.woff2);
+   font-weight: 300;
+}
+@font-face {
+   font-family: Roboto;
+   src: url(../fonts/Roboto-Regular.woff2);
+   font-weight: 400;
+}
+@font-face {
+   font-family: Roboto;
+   src: url(../fonts/Roboto-Bold.woff2);
+   font-weight: 700;
+}
+@font-face {
+   font-family: Roboto;
+   src: url(../fonts/Roboto-Black.woff2);
+   font-weight: 900;
+}
+
+* {
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+   outline: none;
+   border: none;
+   list-style: none;
+   text-decoration: none;
+   cursor: default;
+   color: #fff;
+   font-family: Roboto;
+}
+body {
+   background-image: radial-gradient(circle at 50% 0%, #2f303d 0%, #05070b 55%, #05070b 100%);
+   // background: linear-gradient(to left, #0f0c29, #302b63, #24243e);
+   // background: linear-gradient(to left, #20002c 0, #cbb4d4);
+   // background: linear-gradient(to left, #C33764 0, #1D2671);
+   // background: linear-gradient(to left, #ad5389, #3c1053);
+   // background-image: linear-gradient( 94.3deg,  rgba(26,33,64,1) 10.9%, rgba(81,84,115,1) 87.1% );
+   // background: linear-gradient(to left, #434343, #000000);
+   height: 100vh;
+}
+button, input {
+   cursor: pointer;
+   background: transparent;
+}
+
+// input::-webkit-outer-spin-button,
+// input::-webkit-inner-spin-button {
+//   -webkit-appearance: none;
+//   margin: 0;
+// }
+// #181a22

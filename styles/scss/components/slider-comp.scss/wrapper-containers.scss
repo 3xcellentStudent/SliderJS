@@ -1,0 +1,22 @@
+:root {
+   --contPosition: 0;
+}
+
+main {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+}
+.wrapper {
+   position: relative;
+   width: 100vw;
+   height: 100vh;
+   overflow: hidden;
+   perspective: calc(var(--contPosition) * 2.5);
+   touch-action: none;
+
+   @media screen and (orientation: portrait) {
+      perspective: calc(var(--contPosition) * 4);
+   }
+}
